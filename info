@@ -1,0 +1,12 @@
+mysql:root/20170101
+admin:superuser/administrator
+
+find /home/vicent/WebstormProjects/ts -type f -name "*.php" | xargs grep "site_name"
+
+GRANT ALL ON uvis.* TO root@'10.0.100.144' IDENTIFIED BY '20170101';
+
+
+<p>An <b>autonomous underwater vehicle (AUV)<
+
+
+<span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Autonomous_underwater_vehicle&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span>

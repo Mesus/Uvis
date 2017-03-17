@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>无人战斗航空载具</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Hosting Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="/static/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/static/js/jquery-1.11.1.min.js"></script>
+<!-- Custom Theme files -->
+<link href="/static/css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!-- webfonts -->
+<link href='/static/css/fonts.css' rel='stylesheet' type='text/css'>
+<!-- webfonts -->
+<!-- dropdown -->
+<script src="/static/js/jquery.easydropdown.js"></script>
+<link href="/static/css/nav.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="/static/js/move-top.js"></script>
+		<script type="text/javascript" src="/static/js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+				$("#submit").click(function(){
+					kw = $('#sb').val();
+            		window.location.href="/search?s="+kw;
+            		alert("查询时间视内容的大小与网速影响不等,请耐心等待");
+				});
+				$('#sb').bind('keypress',function(event){
+            		if(event.keyCode == "13")
+            		{
+            			kw = $('#sb').val();
+            			window.location.href="/search?s="+kw;
+            			alert("查询时间视内容的大小与网速影响不等,请耐心等待");
+            		}
+        		});
+			});
+		</script>
+<!-- end-smoth-scrolling -->
+</head>
+<body>
+<!-- Header Starts Here -->
+<div class="banner inner-banner" >
+		<div class="header">
+	<div class="container">
+		<div class="logo">
+			<a href="/"><img src="/static/images/logo.png" alt=""></a>
+		</div>
+		<div class="search-bar">
+			<input type="text"  id="sb" value="搜索" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '搜索';}">
+			<input type="submit" id="submit" value="" />
+	   </div>
+		<span class="menu"> Menu</span>
+
+		<div class="banner-top">
+								<ul class="nav banner-nav">
+										<li><a class="active" href="/">首页</a></li>
+										<li class="dropdown1"><a class="down-scroll" href="/ugv">无人地面载具</a>
+
+										</li>
+										<li class="dropdown1"><a href="/uav">无人飞行载具</a>
+											<ul class="dropdown2">
+												<li><a href="/ucav">无人战斗航空载具</a></li>
+											</ul>
+										</li>
+
+										<li class="dropdown1"><a href="/usv">无人海面载具</a></li>
+										<li class="dropdown1"><a class="down-scroll" href="/uuv">无人水下载具</a>
+											<ul class="dropdown2">
+												<li><a href="/rov">遥控潜水器</a></li>
+												<li><a href="/auv">自主水下载具</a></li>
+											</ul>
+										</li>
+										<li class="dropdown1"><a href="/us">无人太空载具</a></li>
+									<li class="dropdown1"><a href="http://111.204.232.155/ts/"><img src="/static/images/sns.png" alt=""></a></li>
+								</ul>
+								<script>
+									$("span.menu").click(function(){
+										$(" ul.nav").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+							</div>
+		<div class="clearfix"> </div>
+
+	</div>
+	</div>
+<!-- page heading -->
+	<div id="breadcrumb_wrapper">
+		<div class="container">
+
+			<h3>无人战斗航空载具</h3>
+			<h6>Unmanned combat air vehicle</h6>
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<div class="clearfix"> </div>
+<!-- Header Ends Here -->
+		<div class="container">
+			<div class="shared-hosting">
+
+				<figure class="float-center"><img src="/static/images/ucav.jpg" alt="Placeholder"></figure>
+
+			</div>
+		</div>
+
+
+
+<!-- #Footer -->
+
+		<!-- /#Footer -->
+		<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>
+</html>
